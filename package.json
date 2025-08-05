@@ -15,8 +15,8 @@
     "postinstall": "prisma generate && npm run build:icons",
     "removeI18n": "tsx src/remove-translation-scripts/index.js"
   },
-  "engines": {
-  "node": "18.x",
+"engines": {
+  "node": "22.x",
   "pnpm": "8.x"
 },
   "dependencies": {
