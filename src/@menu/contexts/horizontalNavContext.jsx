@@ -13,6 +13,7 @@ export const HorizontalNavProvider = ({ children }) => {
   const updateIsBreakpointReached = isBreakpointReached => {
     setIsBreakpointReached(isBreakpointReached)
   }
+  
 
   // Hooks
   const HorizontalNavProviderValue = useMemo(
